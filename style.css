@@ -1,3 +1,8 @@
+#bodyAll{
+    background-color: darkred;
+
+}
+
 #cuerpo{
     background-color: darkslategrey;
     font-size: 20px;
@@ -5,4 +10,40 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
+    display: none;
+}
+
+#divBackground{
+    background-color: darkred;
+    z-index: 1;
+    width: 100%;
+}
+
+#box{
+    position: relative;
+    background-color: brown;
+    top: 60px;
+    margin: auto;
+    max-width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 40px;
+    box-shadow: 2px 2px 5px #000000;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+#entrada{
+    max-width: 40%;
+    margin-left: 30%;
+    top: 20px;
+}
+
+#entrada2{
+    max-width: 40%;
+    top: 20px;
+    margin-left: 30%;
 }

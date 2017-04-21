@@ -9,10 +9,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
-<body id="cuerpo">
-<br><br>
+<body id="bodyAll">
 
- <form>
+
+<div id="divBackground">
+    <div id="box">
+        <div class="form-group row">
+            <label for="nombrePersona" class="col-2 col-form-label">Nombre</label>
+            <div class="col-10" id="entrada">
+                <input class="form-control" id="nombrePersona" value="Pepita" type="text">
+            </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label for="apellidoPersona" class="col-2 col-form-label">Apellido</label>
+            <div class="col-10" id="entrada2">
+                <input class="form-control" id="apellidoPersona" value="Migolondrina" type="text">
+            </div>
+        </div>
+    </div>
+</div>
+
+ <form  id="cuerpo">
         <div class="form-group row">
             <label for="nombre" class="col-2 col-form-label">Nombre de la carroza</label>
             <div class="col-10">
